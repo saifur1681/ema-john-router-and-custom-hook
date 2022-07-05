@@ -1,0 +1,20 @@
+/* .cart-detail{
+    display: flex;
+    justify-content:space-between;
+} */
+.price{
+    display: flex;
+    justify-content:space-between;
+    text-decoration: none;
+    /* margin-left: 20px; */
+    margin-right: 20px;
+    font-size: 15px
+}
+.cart-detail{
+    display:grid;
+    grid-template-columns: 3fr 2fr;
+}
+.cart-detail li{
+    list-style-type: none;
+    font-weight: bold;
+}

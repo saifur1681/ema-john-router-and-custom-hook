@@ -1,0 +1,21 @@
+.Search-container {
+    background-color: rgb(104, 103, 103);
+    height: 35px;
+}
+
+.Search-container input {
+    width: 50%;
+    height: 20px;
+    border: 3px solid rgb(211, 90, 4);
+    border-radius:5px;
+}
+
+.shop-container {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+
+}
+
+.product {
+    border-right: 1px solid #ccc;
+}
